@@ -1,0 +1,7 @@
+DNI123456789A
+CP10000
+NUMTLF600000000
+renta 44557.67
+numhijos 2
+deudas -4000
+a devolver -15.65 porciento

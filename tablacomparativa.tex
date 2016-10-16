@@ -1,0 +1,45 @@
+\begin{tabular}{| c | p{8cm} | p{4.5cm} |}
+\hline
+& LaTeX & HTML \\
+\hline
+\multirow{3}{*}{\textbf{Negrita}} & \mint{latex}|\textbf{texto}| & \mint{html}|<b>texto</b>| \\
+\hline
+\multirow{3}{*}{\textit{Cursiva}} & \mint{latex}|\textit{texto}| & \mint{html}|<i>texto</i>| \\
+\hline
+\multirow{3}{*}{\underline{Subrayado}} & \mint{latex}|\underline{texto}| & \mint{html}|<u>texto</u>| \\
+\hline
+\multirow{3}{*}{Capítulo} & \mint{latex}|\chapter{Nombre}| & \mint{html}|<h1>Nombre</h1>| \\
+\hline
+\multirow{3}{*}{Sección} & \mint{latex}|\section{Nombre}| & \mint{html}|<h2>Nombre</h2>| \\
+\hline
+\multirow{3}{*}{Subsección} & \mint{latex}|\subsection{Nombre}| & \mint{html}|<h3>Nombre</h3>| \\
+\hline
+\multirow{3}{*}{Subsubsección} & \mint{latex}|\subsubsection{Nombre}| & \mint{html}|<h4>Nombre</h4>| \\
+\hline
+\multirow{3}{*}{Descripción} & 
+\begin{minted}{latex}
+\begin{description}
+\item[Nombre]
+\end{description}
+\end{minted}
+ & \mint{html}|<h5>Nombre</h5>| \\
+\hline
+\multirow{3}{*}{Enlace} & \mint{latex}|\href{url}{texto}| & \mint{html}|<a href="url">texto</a>| \\
+\hline
+\multirow{3}{*}{imagen} & \mint{latex}|\includegraphics[width=1\textwidth]{imagen}| & \mint{html}|<img src="imagen.jpg"/>| \\
+\hline
+\multirow{3}{*}{Listar elementos} &
+\begin{minted}{latex}
+\begin{enumerate}
+\item texto
+\end{enumerate}
+\end{minted}
+&
+\begin{minted}{html}
+<ul>
+  <li>texto</li>
+</ul>
+\end{minted}
+\\
+\hline
+\end{tabular}
